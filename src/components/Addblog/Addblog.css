@@ -1,0 +1,60 @@
+.addblog{
+
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top:15%
+
+
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;}
+
+
+
+    .title_add{
+       font-size: 40px;
+       position: absolute;
+       font-weight: bold;
+      font-family:  Garamond, serif;
+       top:-13% ;
+       display:flex;
+       left:30%
+    }
+    .signUpBtn{
+       margin-top: 10px;
+        color:white;
+        width: 80px;
+        border-radius: 10px;
+        border:none ;
+        background-color: gray;
+        height: 25px;
+        
+    }
+    .signUpBtn:hover{
+        background-color: rgb(78, 77, 77);
+    }
+.textaria{
+ border: none;
+ width: 230px;
+ height: 80px;
+ margin-top: 20px;
+ background-color: rgb(253, 243, 230);
+}

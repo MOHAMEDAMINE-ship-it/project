@@ -1,0 +1,59 @@
+
+
+.header{
+    display: flex;
+    margin-top: 10px;
+        height: 150px;
+
+    align-items: center;
+   
+}
+.logo{
+    height:60px
+}
+.headers-links{
+    display: flex !important;
+    flex-direction: row;
+    gap:40px;
+    padding-left: 30%;
+
+}
+
+
+.input{
+ 
+     border-radius: 10px;
+     
+     text-align: center;
+     
+}
+
+
+.homepage{
+    display: flex;
+}
+.blogs {
+    display: flex;
+}
+.wrapper {
+    display: flex;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+
+    
+}
+
+.homepage:hover{
+    color: rgb(114, 79, 25);
+}
+.blogs:hover{
+    color: rgb(114, 79, 25);
+
+}
+.logo1{
+    color: rgb(192, 69, 108);
+     size: 20px;
+}

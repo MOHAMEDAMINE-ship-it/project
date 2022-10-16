@@ -1,0 +1,81 @@
+.cont_d{
+    background-color: rgb(255, 240, 243);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 100vh;
+   
+  
+}
+.back_d{
+    background-image: url('../../images/books.jpg');
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 500px;
+    width: 500px;
+
+}
+.blog{
+    background-color: rgb(245, 250, 255);
+ 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 387px;
+
+}
+.title_blg{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+   
+    
+
+}
+.separate{
+    height: 1px;
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    
+  
+}
+.writer{
+margin-left: 10%;
+font-size: 10px;
+}
+.separate_2{
+    height: 0.8px;
+    background-color: black;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+  
+}
+.des_1{
+    margin:40px 20px;
+    font-size: 13px;
+}
+.detcommm{display: flex;
+  flex-direction: row;
+
+    
+    
+    }
+    .rightcomm{
+        
+        flex: 1;
+    }
+.leftdet{
+    flex: 2;
+
+}

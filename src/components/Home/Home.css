@@ -1,0 +1,126 @@
+
+/*.container_all{
+   
+   
+   
+     margin-top: 100px;
+     height: 100%;
+     background-image: url(../../images/back.jpg) ;
+     background-size: cover;
+     overflow: hidden;
+}*/
+.container_blogs{
+    margin-top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 200px;
+     justify-content: center;
+    align-items:center;
+}
+
+
+.container{
+  background-color:bisque ;
+  height: 350px;
+  width: 250px;
+  text-align: center;
+
+ align-content: center;
+  border-radius: 10px;
+  border:solid;
+  padding-top: 30px
+
+    
+;
+  
+
+}
+.container:hover{
+    background-color: rgb(201, 196, 189);
+ 
+}
+.title{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.dess{
+    padding-top: 20px;
+    font-weight:bold ;
+    font-size: 15px;
+    font-family: cursive}
+
+.des{
+   font-size: 10px;
+}
+
+.usertext{
+    padding-top: 0px;
+    font-weight:bold ;
+    font-size: 10px;
+    font-family: cursive;
+    color:rgb(114, 117, 120)
+}
+.line{
+   height: 0.1rem;
+   background-color: rgb(145, 143, 143); 
+   width: 140px;
+   margin: auto;
+   margin-top: 20px;
+}
+
+.titlehome{
+    position:absolute;
+    top:20%;
+    left: 40%;
+    font-size:60px;
+    font-weight: bold;
+    color: rgb(167, 31, 72);
+    font-family: cursive;
+}
+
+.img_pod>img{
+    width: 20px
+}
+.img_pod {
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    z-index: 10;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+   position: relative;
+   top: -60px;
+   left:-17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img_pod>img{
+    width: 70px;
+    position:relative;
+    top:-7px;
+    left: -11px;
+    border-radius: 50px;
+  }
+  
+  #btn{
+    background-color: rgb(95, 93, 93);
+    border-radius: 10px;
+    border: none;
+    width:  80px;
+height: 30px; 
+margin-top:10px ;
+color:rgb(197, 157, 157);
+
+font-size: 10px;
+
+
+}
+.addblog{
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+   
+}
